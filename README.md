@@ -97,5 +97,7 @@ Continuously find and start a GPU instance when it becomes available:
 ```
 
 ![](images/find.png)
+
 ![](images/find2.png)
+
 ![](images/find3.png)
