@@ -60,11 +60,17 @@ List all available GPU instances:
 ./target/release/lambda_cli list
 ```
 
+![](images/list.png)
+
+
 Start a GPU instance with the specified SSH key:
 
 ```
 ./target/release/lambda_cli start --gpu "gpu_1x_a10" --ssh "Chris"
 ```
+
+![](images/start.png)
+
 
 Stop a specified GPU instance:
 
@@ -72,14 +78,24 @@ Stop a specified GPU instance:
 ./target/release/lambda_cli stop --gpu "instance_id"
 ```
 
+![](images/stop.png)
+
+
 List all running GPU instances:
 
 ```
 ./target/release/lambda_cli running
 ```
 
+![](images/running.png)
+
+
 Continuously find and start a GPU instance when it becomes available:
 
 ```
 ./target/release/lambda_cli find --gpu "8x_h100" --ssh "SSH_KEY_NAME" --sec 30
 ```
+
+![](images/find.png)
+![](images/find2.png)
+![](images/find3.png)
